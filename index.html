@@ -4,148 +4,139 @@
 	<meta charset="UTF-8">
 	<title>Sage</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Teko:400,300' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet'>
 </head>
 <body>
-	<header class="clearfix">
-		<img src="img/logo.svg" alt="LOGO">
-		<nav>	
-			<ul class="clearfix">
-				<li class="activenav"><a href="#">Home</a></li>
-				<li class="space"><a href="#">Projects</a></li>
-				<li class="space"><a href="#">About</a></li>
-				<li class="space"><a href="#">Services</a></li>
-				<li class="space"><a href="#">Blog</a></li>
-				<li class="space"><a href="#">Get in Touch</a></li>
-			</ul>
-		</nav>
+	<header>
+		<div>	
+			<img src="img/logo.svg" alt="LOGO">
+			<nav>	
+				<ul class="clearfix">
+					<li class="activenav"><a href="#">Home</a></li>
+					<li class="space"><a href="#">Projects</a></li>
+					<li class="space"><a href="#">About</a></li>
+					<li class="space"><a href="#">Services</a></li>
+					<li class="space"><a href="#">Blog</a></li>
+					<li class="space"><a href="#">Get in Touch</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<main>
-		<section class="introduction ">
+		<section class="introduction">
 			<ul class="carousel">
-				<li>
+				<li class="hero1 hide">
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
 					<a href="#" target="_blank" class="button">EXPLORE MORE</a>
 				</li>
-<!-- 				<li class="active">			page 2 of carousel		
+				<li class="hero2 hide active">			
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#" class="button">EXPLORE MORE</a>
+					<a href="#" target="_blank" class="button active">EXPLORE MORE</a>
 				</li>
-				<li>					page 3 or carousel
+				<li class="hero3 hide">				
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#" class="button">EXPLORE MORE</a>
+					<a href="#" target="_blank" class="button">EXPLORE MORE</a>
 				</li>
-				<li>					page 4 or carousel
+				<li class="hero4 hide">				
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#" class="button">EXPLORE MORE</a>
-				</li> -->
+					<a href="#" target="_blank" class="button">EXPLORE MORE</a>
+				</li>
 			</ul>
-			<nav>
+			<div class="pagination">
 				<ul>
-					<li>slider1</li>
-					<li class="active">slider2</li>
-					<li>slider3</li>
-					<li>slider4</li>
+					<li class="slider"></li>
+					<li class="active slider sliderspace"></li>
+					<li class="slider sliderspace"></li>
+					<li class="slider sliderspace"></li>
 				</ul>
-			</nav>
+			</div>
 		</section>
-		<section class="My Projects">
-			<h1>MY PROJECTS</h1>
-			<article>
-				<figure>
-					<a href="#"><img target="_blank" src="img/tesla.jpg" alt="tesla"></a>
-					<section>
-						<figcaption>     <!-- hover content -->
-							<h3>Year 14<br>Client: personal project</h3>
-							<p>digital / mobile / editorial</p>
-							<section>
-								<h4>sage multipurpose theme</h4>
-								<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p> <!-- this text was repeated in the PSD, so I repeated it here. -->
-							</section>
-						</figcaption>
-					</section>
-				</figure>
-				<h2>Model S Catalog</h2>
-				<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-			</article>
-			<article>
-				<figure>
-					<a href="#"><img src="img/discovery.jpg" alt="discovery"></a>
-<!-- 					<section>
-						<figcaption>    hover content
-							<h3>Year 14<br>Client: personal project</h3>
-							<p>digital / mobile / editorial</p>
-							<section>
-								<h4>sage multipurpose theme</h4>
-								<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
-							</section>
-						</figcaption>
-					</section> -->
-				</figure>
-				<h2>Discovery</h2>
-				<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
-			</article>
-			<article>
-				<figure>
-					<a href="#"><img src="img/stuhrling.gif" alt="stuhrling"></a>
-<!-- 					<section>
-						<figcaption>     hover content
-							<h3>Year 14<br>Client: personal project</h3>
-							<p>digital / mobile / editorial</p>
-							<section>
-								<h4>sage multipurpose theme</h4>
-								<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
-							</section>
-						</figcaption>
-					</section> -->
-				</figure>
-				<h2>Stuhrling</h2>
-				<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
-			</article>
-			<article>
-				<figure>
-					<a href="#"><img src="img/infinityspaces.jpg" alt="infinityspaces"></a>
-					<section>
-						<figcaption>
-							<h3>Year 14<br>Client: personal project</h3>
-							<p>digital / mobile / editorial</p>
-							<section>
-								<h4>sage multipurpose theme</h4>
-								<p>Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
-							</section>
-						</figcaption>
-					</section>
-				</figure>
-				<h2>Infinity Spaces</h2>
-				<p>Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
-			</article>
+		<section class="myprojects">
+			<h1>my projects</h1>
+			<div>
+				<article class="project1">
+					<figure>
+						<a href="#">
+							<img target="_blank" src="img/tesla.jpg" alt="tesla" class="tesla">
+							<figcaption>
+								<h3>Year 14<br>Client: personal project</h3>
+								<p>digital / mobile / editorial</p>
+							</figcaption>
+						</a>
+					</figure>
+					<h2><a href="#">Model S Catalog</a></h2>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+				<article class="project2">
+					<figure>
+						<a href="#">
+							<img src="img/discovery.jpg" alt="discovery">
+							<figcaption>
+								<h3>Year 2014<br>Client: personal project</h3>
+								<p>digital / mobile / editorial</p>
+							</figcaption>
+						</a>
+					</figure>
+					<h2><a href="#">Discovery</a></h2>
+					<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
+				</article>
+				<article class="project3">
+					<figure>
+						<a href="#">
+							<img src="img/stuhrling.gif" alt="stuhrling" class="heightfill">
+							<figcaption>     <!-- hover content -->
+								<h3>Year 14<br>Client: personal project</h3>
+								<p>digital / mobile / editorial</p>
+							</figcaption>
+						</a>
+					</figure>
+					<h2><a href="#">Stuhrling</a></h2>
+					<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
+				</article>
+				<article class="project4">
+					<figure>
+						<a href="#">
+							<img src="img/infinityspaces.jpg" alt="infinityspaces">
+							<figcaption>
+								<h3>Year 14<br>Client: personal project</h3>
+								<p>digital / mobile / editorial</p>
+							</figcaption>
+						</a>
+					</figure>
+					<h2><a href="#">Infinity Spaces</a></h2>
+					<p>Infinity &infin; is an abstract concept describing something without any limit and is relevant in a number of fields</p>
+				</article>
+			</div>
 			<a href="#" class="button">Show More Projects</a>
 		</section>
-		<section>
+		<section class="showcasing">
 			<h1>Showcasing your work has never been more fun</h1>
 			<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
-			<a href="#" class="button">GET IN TOUCH</a>
+			<a href="#" class="button">get in touch</a>
 		</section>
 		<aside>
 			<h1>STAY CONNECTED</h1>
 			<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
 			<ul>
-				<li><a href="#" target="_blank" ><i class="fa fa-behance"></i>Behance</a></li>
-				<li><a href="#" target="_blank" ><i class="fa fa-facebook"></i>Facebook</a></li>
-				<li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i>Pinterest</a></li>
-				<li><a href="#" target="_blank" ><i class="fa fa-linkedin"></i>Linkedin</a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-behance"></i><p>Behance</p></a></li>
+				<li class="socialspace"><a href="#" target="_blank"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>
+				<li class="socialspace"><a href="#" target="_blank"><i class="fa fa-pinterest"></i><p>Pinterest</p></a></li>
+				<li class="socialspace"><a href="#" target="_blank"><i class="fa fa-linkedin"></i><p>Linkedin</p></a></li>
 			</ul>
 		</aside>
 	</main>
 	<footer>
 		<small>Copyright &copy; 2015 SAGE Agency Worldwide. All rights reserved.</small>
 	</footer>
+
 </body>
 </html>

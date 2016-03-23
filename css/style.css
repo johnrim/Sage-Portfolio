@@ -21,7 +21,6 @@ header nav {
 	width: auto;
 	padding: 0;
 	float: right;
-	display: inline-block;
 	border: 2px solid black;
 }
 
@@ -41,15 +40,15 @@ header nav li {
 	border: 2px solid blue;
 	float: left;
 	height: 100%;
-	padding: 3% 0;
+	padding: 3.5% 0px 0px 0px;
 }
 
 header nav li a {
-	display: inline-block;
 	height: 100%;
 	text-decoration: none;
 	font-family: "Titillium Web";
 	font-size: 16px;
+	letter-spacing: .01em;
 	color: rgba(0, 0, 0, 0.502);
 	border: 2px solid black;
 }
@@ -58,7 +57,11 @@ header nav li a {
 	margin-left: 41px;
 }
 
-section.introduction {
+header nav a:hover {
+	color: red;
+}
+
+.introduction {
 	display: block;
 	text-align: center;
 	background-image: url(../img/Hat@2x.jpg);
@@ -68,13 +71,9 @@ section.introduction {
 	border: 2px solid black;
 }
 
-.introduction ul li {
+.introduction.carousel li {
 	list-style-type: none;
 	display: block;
-}
-
-header nav a:hover {
-	color: red;
 }
 
 .introduction h1 {
@@ -82,15 +81,14 @@ header nav a:hover {
   	font-size: 120px;
   	font-family: "Teko";
   	font-weight: 300;
-  	color: rgb(255, 255, 255);
+  	color: #fff;
   	text-transform: uppercase;
-  	margin: 309px auto 0px auto;
-  	width: 1000px;
-  	height: auto;
+  	margin: 309px auto 25px auto;
+  	width: 1184px;
+  	height: 258px;
   	border: 2px solid black;
-  	padding: 0 0 0 0;
-  	letter-spacing: 5.7px;
-  	line-height: 1.2;
+  	letter-spacing: .15em;
+  /*	line-height: 1.2;*/
   /*text-align: center;*/
   /*position: absolute;*/
   /*left: 368.797px;*/
@@ -99,22 +97,85 @@ header nav a:hover {
   /*height: 219px;*/
   /*z-index: 113;*/
 }
+/*.We_build_websites_and_apps_that_people_love {
+  font-size: 120px;
+  font-family: "Teko";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 368.797px;
+  top: 360.681px;
+  width: 1153px;
+  height: 219px;
+  z-index: 113;
+}*/
+
 
 .introduction p {
+	display: inline-block;
+	width: 739px;
+	height: auto;
+	margin: 0px auto 0px auto;
 	font-size: 22px;
 	font-family: "Titillium Web";
 	color: rgba(255,255,255,.702);
+	margin: 0px 0px 45px 0px;
 }
 
 .introduction a {
 	display: block;
 	text-decoration: none;
 	font-family: "Teko";
+	font-weight: 300;
+	letter-spacing: .15em;
 	color: #000;
-	background-color: rgb(255, 255, 255);
+	background-color: #fff;
 	width: 230px;
   	height: 50px;
   	padding-top: 18px;
-  	margin: 0 auto 0 auto;
+  	margin: 0px auto 0px auto;
 }
+
+ul.pagination {
+	margin-top: 226px;
+}
+
+.pagination li{
+	display: inline-block;
+	list-style-type: none;
+	border: 2px solid pink;
+}
+
+.slider.active {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+div.slider {
+	background-color: rgba(255, 255, 255, .20);
+	width: 40px;
+	height: 4px;
+}
+
+.sliderspace {
+	margin-left: 10px;
+}
+
+.MyProjects {
+	text-align: center;
+
+}
+.MyProjects h1 {
+	display: block;
+	height: 135px;
+	width: 100%;
+	font-family: "Teko";
+	font-weight: 400;
+	font-size: 40px;
+	padding-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: .12em;
+}
+
 
